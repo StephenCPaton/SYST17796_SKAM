@@ -4,10 +4,15 @@
  */
 package project1_skam;
 
-/**
- *
- * @author manuelmartinez
- */
-public class Card {
+// @author manuelmartinez
+public class Card 
+{
+    String suit;
+    int value;
     
+    Card(String suit, int value)
+    {
+        this.suit = suit;
+        this.value = value;
+    }
 }
