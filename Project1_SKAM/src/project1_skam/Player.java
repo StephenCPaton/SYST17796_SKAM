@@ -9,9 +9,8 @@ public class Player
 	public int numWins;
 	public ArrayList<Card> hand = new ArrayList<>();
 
-	public Player(String name) 
+	public Player() 
         {
-
 	}
         
         public void playersMove()

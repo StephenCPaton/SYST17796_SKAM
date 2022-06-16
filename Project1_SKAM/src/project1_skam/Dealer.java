@@ -1,6 +1,7 @@
 package project1_skam;
 
-public class Dealer {
+public class Dealer extends Player
+{
 
-	public String test;
+	
 }

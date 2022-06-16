@@ -7,10 +7,12 @@ package project1_skam;
 // @author manuelmartinez
 public class Card 
 {
-    String suit;
-    int value;
+    public static final String[] SUITS = {"Hearts", "Diamonds", "Spades", "Clubs"};
+    public String suit;
+    public int value; //1-13
     
-    Card(String suit, int value)
+    
+    public Card(String suit, int value)
     {
         this.suit = suit;
         this.value = value;
