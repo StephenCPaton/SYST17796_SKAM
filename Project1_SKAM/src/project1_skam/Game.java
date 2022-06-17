@@ -53,7 +53,7 @@ public class Game
             for (int i = 0; i < 2; i++)
             {
                 int cardIndex = (int) (Math.random() * deck.size());
-                player.hand.add(deck.get(cardIndex));
+                player.hand.add(deck.remove(cardIndex));
                 
             }
          }
